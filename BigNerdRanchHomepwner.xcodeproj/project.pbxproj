@@ -85,8 +85,8 @@
 		0D6B6BC2213D565B00272C41 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0D6B6BC0213D561200272C41 /* ItemStore.swift */,
 				0D6B6BC92140002100272C41 /* ImageStore.swift */,
+				0D6B6BC0213D561200272C41 /* ItemStore.swift */,
 				0D6B6BBE213D4BA100272C41 /* Item.swift */,
 			);
 			path = Model;

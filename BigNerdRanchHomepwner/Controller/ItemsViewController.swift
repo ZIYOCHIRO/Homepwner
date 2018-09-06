@@ -14,12 +14,7 @@ class ItemsViewController: UITableViewController {
     var itemStore: ItemStore!
     var imageStore: ImageStore!
     
-    // MARK: set left BarButtonItem
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        
-        navigationItem.leftBarButtonItem = editButtonItem
-    }
+    
     // MARK: Life cycle
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillDisappear(animated)
@@ -115,5 +110,11 @@ class ItemsViewController: UITableViewController {
                 detailViewController.imageStore = imageStore
             }
         }
+    }
+    
+    // MARK: set left BarButtonItem
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        navigationItem.leftBarButtonItem = editButtonItem
     }
 }
